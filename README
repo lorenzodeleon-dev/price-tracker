@@ -1,1 +1,17 @@
-
+#Python price tracker
+A Python script that scrapes a products price and creates CSV file 
+## Functionality
+- Scrapes the products live price using the libraries beautifulsoup and requests
+- Saves the price and the timestamp within a CSV file
+- Alerts when product price drops
+##Libraries used
+- requests
+- beautifulsoup4
+- CSV
+- Daytime
+## How to run tool 
+1. Install dependencies
+pip install beautifulsoup4 request
+2. Run the Scripts
+python price-tracker.py
+## Use swap the URL with the product page URL to set product price thresholds
